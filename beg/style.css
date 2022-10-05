@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: hsl(0%, 0%, 98%);
+    padding: 0px 20px;
+}
+p{
+    font-size: 18px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+}
+li{
+    display: inline;
+    margin-left: 60px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-weight: bold;
+}
+.sidebar{
+    flex: 1;
+    text-align: right;
+}
+.icon{
+    display: none;
+}
+ul{
+    margin-left: 70px;
+}
+ul img{
+    margin-left: 5px;
+    position: relative;
+    top: -1px;
+}
+.side{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 7px 20px;
+}   
+.button{
+    border: 1px solid black;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    display: inline;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+.container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.section1{
+    padding-top: 60px;
+}
+.section1 h1{
+    font-size: 85px;
+}
+.section2 img{
+    width: 100%;
+    height: 600px;
+}
+.inner{
+    margin: 60px 0;
+}
+.footer{
+    margin-top: 100px;
+}
+.footer img{
+    margin-left: 10px;
+}
+.img2{
+    display: none;
+}
+.menu{
+    display: none;
+    padding: 12px 20px 20px;
+    border: 1px solid none;
+    background-color:wheat;
+    border-radius: 10px;
+    position: absolute;
+    top: 70px;
+    left: 160px;
+}
+.menu img{
+    margin-right: 10px;
+}
+.menu p{
+    margin-top: 8px;
+}
+.menu2{
+    padding: 12px 20px 20px;
+    border: 1px solid none;
+    background-color:wheat;
+    border-radius: 10px;
+    position: absolute;
+    top: 70px;
+    left: 378px;
+    display: none;
+}
+.menu2 p{
+    margin-top: 8px;
+}
+@media screen and (max-width: 700px) {
+    .cal{
+        margin-top: 150px;
+    }
+    .call{
+        margin-top: 120px;
+    }
+    .side{
+        padding: 8px 120px;
+    }
+    .icon{
+        display: inline;
+        flex: 1;
+        text-align: right;
+    }
+    li{
+        display: block;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    ul{
+        height: auto;
+        margin: 0;
+        width: 60%;
+        background-color: white;
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        right: 0;
+        padding-bottom: 40px;
+        display: none;
+        z-index: 1;
+    }
+    .sidebar{
+        padding-bottom: 40px;
+        background-color: white;
+        text-align: center;
+        width: 60%;
+        position: absolute;
+        left: 40%;
+        top: 60%;
+        display: none;
+        z-index: 1;
+    }
+    .menu{
+        background-color: white;
+        position: absolute;
+        left: 290px;
+        top: 135px;
+        z-index: 2;
+    }
+    .menu2{
+        background-color: white;
+        position: absolute;
+        top: 300px;
+        left: 290px;
+        z-index: 2;
+    }
+    .container{
+        margin-top: 20px;
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr;
+    }
+    .section1{
+        text-align: center;
+        grid-row: 2/2;
+        grid-column: 1/1;
+    }
+    .section2{
+        grid-row: 1/2;
+        grid-column: 1/1;
+    }
+    .section1 h1 div{
+        display: inline;
+    }
+    .section1 h1{
+        font-size: 60px;
+    }
+    .img1{
+        display: none;
+    }
+    .section2 img{
+        width: 100%;
+        height: 300px;
+    }
+    .img2{
+        display: block;
+    }
+    .footer{
+        margin-top: 60px;
+    }
+    .inner{
+        margin: 30px 0;
+    }
+}

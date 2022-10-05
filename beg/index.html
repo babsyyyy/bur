@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="logo">
+           <img src="/images/logo.svg" alt="">
+        </div>
+        <ul>
+            <li class="ca"><a href="#" class="one">Features<img src="/images/icon-arrow-down.svg" class="jud"></a></li>
+            <li class="cal"><a href="#" class="two">Company<img src="/images/icon-arrow-down.svg" class="judd"></a></li>
+            <li class="call"><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <div class="sidebar">
+            <li><a href="#">Login</a></li>
+            <li><a href="#" class="side">Register</a></li>
+        </div>
+        <div class="icon">
+            <img src="/images/icon-menu.svg" alt="" class="car">
+        </div>
+        <div class="menu">
+            <p><img src="/images/icon-todo.svg" alt="">Todo-List</p>
+            <p><img src="/images/icon-calendar.svg" alt="">Calendar</p>
+            <p><img src="/images/icon-reminders.svg" alt="">Reminder</p>
+            <p><img src="/images/icon-planning.svg" alt="">Planning</p>
+        </div>
+        <div class="menu2">
+            <p>History</p>
+            <p>Our Team</p>
+            <p>Blog</p>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="section1">
+            <h1><b><div>Make</div> remote work</h1>
+            <div class="inner">
+                <p>Get your team in sync, no matter your location.<br> Streamline processes. create team rituals and<br> watch productivity soar</p>
+            </div>
+            <div class="button">Learn more</div>
+            <div class="footer">
+                <img src="/images/client-databiz.svg" alt="">
+                <img src="/images/client-audiophile.svg" alt="">
+                <img src="/images/client-meet.svg" alt="">
+                <img src="/images/client-maker.svg" alt="">
+            </div>
+        </div>
+        <div class="section2">
+            <img src="/images/image-hero-desktop.png" alt="" class="img1">
+            <img src="/images/image-hero-mobile.png" alt="" class="img2">
+        </div>
+    </div>
+
+
+
+
+    <script>
+        let one = document.querySelector(".one");
+        let two = document.querySelector(".two")
+        let menu = document.querySelector(".menu")
+        let menu2 = document.querySelector(".menu2")
+        let btn = document.querySelector(".container")
+        let ul = document.querySelector("ul")
+        let sidebar = document.querySelector(".sidebar")
+        let icon = document.querySelector(".icon")
+        let cal = document.querySelector(".cal")
+        let call = document.querySelector(".call")
+        let car = document.querySelector(".car")
+        let jud = document.querySelector(".jud")
+        let judd = document.querySelector(".judd")
+    
+        one.addEventListener ("click", function(){
+            judd.src = "/images/icon-arrow-down.svg"
+             menu2.style.display = "none"
+            if(menu.style.display == "none"){ 
+                menu.style.display = "block"
+                btn.style.opacity = "40%"
+                jud.src = "/images/icon-arrow-up.svg"
+            }else{
+                menu.style.display = "none"
+                btn.style.opacity = "100%"
+                jud.src = "/images/icon-arrow-down.svg"
+            }
+        })
+        two.addEventListener ("click", function(){
+            jud.src = "/images/icon-arrow-down.svg"
+            menu.style.display = "none"
+            if(menu2.style.display == "none"){
+                menu2.style.display = "block"
+                btn.style.opacity = "40%"
+                judd.src = "/images/icon-arrow-up.svg"
+            }else{
+                menu2.style.display = "none"
+                btn.style.opacity = "100%"
+                judd.src = "/images/icon-arrow-down.svg"
+            }
+        })
+        icon.addEventListener ("click", function(){
+            menu.style.display = "none"
+            menu2.style.display = "none"
+            btn.style.opacity = "40%"
+            if(ul.style.display == "none"){
+                car.src = "/images/icon-close-menu.svg"
+                btn.style.opacity = "40%"
+                ul.style.display = "block"
+                sidebar.style.display = "block"
+            }else{
+                car.src = "/images/icon-menu.svg"
+                ul.style.display = "none"
+                sidebar.style.display = "none"
+                btn.style.opacity = "100%"
+            }
+            btn.addEventListener ("click", function(){
+            menu.style.display = "none"
+            menu2.style.display = "none"
+            ul.style.display = "none"
+            sidebar.style.display = "none"
+            btn.style.opacity = "100%"
+            car.src = "/images/icon-menu.svg"
+        })
+        })
+
+        btn.addEventListener ("click", function(){
+            menu.style.display = "none"
+            menu2.style.display = "none"
+            btn.style.zIndex = 3;
+            btn.style.opacity = "100%"
+            jud.src = "/images/icon-arrow-down.svg"
+            judd.src = "/images/icon-arrow-down.svg"
+        })
+        
+    </script>
+</body>
+</html>
