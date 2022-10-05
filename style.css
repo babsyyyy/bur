@@ -119,13 +119,13 @@ ul img{
 }
 @media screen and (max-width: 700px) {
     .cal{
-        margin-top: 150px;
+        margin-top: 62%;
     }
     .call{
-        margin-top: 120px;
+        margin-top: 60%;
     }
     .side{
-        padding: 8px 120px;
+        padding: 8px 70px;
     }
     .icon{
         display: inline;
@@ -140,7 +140,7 @@ ul img{
     ul{
         height: auto;
         margin: 0;
-        width: 50%;
+        width: 40%;
         background-color: white;
         position: absolute;
         top: 10%;
@@ -151,10 +151,11 @@ ul img{
         z-index: 1;
     }
     .sidebar{
-        padding-bottom: 40px;
+        flex: none;
+        padding-bottom: 17%;
         background-color: white;
         text-align: center;
-        width: 50%;
+        width: 40%;
         position: absolute;
         left: 50%;
         top: 69%;
@@ -162,6 +163,7 @@ ul img{
         z-index: 1;
     }
     .menu{
+        width: auto;
         background-color: white;
         position: absolute;
         left: 55%;
