@@ -173,14 +173,14 @@ ul img{
         background-color: white;
         position: absolute;
         left: 45%;
-        top: 16%;
+        top: 17%;
         z-index: 2;
     }
     .menu2{
         background-color: white;
         position: absolute;
-        top: 40%;
-        left: 46%;
+        top: 42%;
+        left: 45%;
         z-index: 2;
     }
     .container{
