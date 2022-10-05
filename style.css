@@ -119,10 +119,10 @@ ul img{
 }
 @media screen and (max-width: 700px) {
     .cal{
-        margin-top: 62%;
+        margin-top: 68%;
     }
     .call{
-        margin-top: 60%;
+        margin-top: 66%;
     }
     .side{
         padding: 8px 30px;
@@ -152,13 +152,13 @@ ul img{
     }
     .sidebar{
         flex: none;
-        padding-bottom: 17%;
+        padding-bottom: 7%;
         background-color: white;
         text-align: center;
         width: 50%;
         position: absolute;
         left: 50%;
-        top: 75%;
+        top: 82%;
         display: none;
         z-index: 1;
     }
@@ -167,17 +167,15 @@ ul img{
         background-color: white;
         position: absolute;
         left: 55%;
-        top: 16%;
+        top: 19%;
         z-index: 2;
-        display: block;
     }
     .menu2{
         background-color: white;
         position: absolute;
-        top: 42%;
+        top: 45%;
         left: 55%;
         z-index: 2;
-        display: block;
     }
     .container{
         margin-top: 20px;
