@@ -118,6 +118,10 @@ ul img{
     margin-top: 8px;
 }
 @media screen and (max-width: 700px) {
+    nav{
+        position: sticky;
+        top: 0;
+    }
     .cal{
         margin-top: 68%;
     }
@@ -140,11 +144,11 @@ ul img{
     ul{
         height: auto;
         margin: 0;
-        width: 50%;
+        width: 60%;
         background-color: white;
         position: absolute;
         top: 10%;
-        left: 50%;
+        left: 40%;
         right: 0;
         padding-bottom: 40px;
         display: none;
@@ -155,10 +159,10 @@ ul img{
         padding-bottom: 7%;
         background-color: white;
         text-align: center;
-        width: 50%;
+        width: 60%;
         position: absolute;
-        left: 50%;
-        top: 82%;
+        left: 40%;
+        top: 75%;
         display: none;
         z-index: 1;
     }
@@ -166,15 +170,15 @@ ul img{
         width: auto;
         background-color: white;
         position: absolute;
-        left: 55%;
-        top: 19%;
+        left: 45%;
+        top: 15%;
         z-index: 2;
     }
     .menu2{
         background-color: white;
         position: absolute;
-        top: 45%;
-        left: 55%;
+        top: 40%;
+        left: 45%;
         z-index: 2;
     }
     .container{
@@ -196,7 +200,7 @@ ul img{
         display: inline;
     }
     .section1 h1{
-        font-size: 50px;
+        font-size: 40px;
     }
     .img1{
         display: none;
@@ -216,7 +220,7 @@ ul img{
         margin: 30px 0;
     }
     .inner p{
-        font-size: 15px;
+        font-size: 12px;
     }
     .footer img{
         margin-left: 2px;
