@@ -119,8 +119,10 @@ ul img{
 }
 @media screen and (max-width: 700px) {
     nav{
-        position: sticky;
-        top: 0;
+        padding: 0px 20px;
+    }
+    body{
+        padding: 0px 0px;
     }
     .cal{
         margin-top: 68%;
@@ -188,6 +190,7 @@ ul img{
         grid-template-columns: 1fr;
     }
     .section1{
+        margin-top: 0px;
         text-align: center;
         grid-row: 2/2;
         grid-column: 1/1;
@@ -200,7 +203,7 @@ ul img{
         display: inline;
     }
     .section1 h1{
-        font-size: 40px;
+        font-size: 35px;
     }
     .img1{
         display: none;
@@ -214,7 +217,7 @@ ul img{
     }
     .footer{
         width: 100%;
-        margin-top: 60px;
+        margin-top: 45px;
     }
     .inner{
         margin: 30px 0;
