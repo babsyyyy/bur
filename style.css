@@ -140,40 +140,42 @@ ul img{
     ul{
         height: auto;
         margin: 0;
-        width: 60%;
+        width: 50%;
         background-color: white;
         position: absolute;
         top: 10%;
-        left: 40%;
+        left: 50%;
         right: 0;
         padding-bottom: 40px;
-        display: none;
+        display: nne;
         z-index: 1;
     }
     .sidebar{
         padding-bottom: 40px;
         background-color: white;
         text-align: center;
-        width: 60%;
+        width: 50%;
         position: absolute;
-        left: 40%;
-        top: 60%;
-        display: none;
+        left: 50%;
+        top: 69%;
+        display: nne;
         z-index: 1;
     }
     .menu{
         background-color: white;
         position: absolute;
-        left: 290px;
+        left: 55%;
         top: 135px;
         z-index: 2;
+        display: block;
     }
     .menu2{
         background-color: white;
         position: absolute;
         top: 300px;
-        left: 290px;
+        left: 55%;
         z-index: 2;
+        display: block;
     }
     .container{
         margin-top: 20px;
@@ -194,7 +196,7 @@ ul img{
         display: inline;
     }
     .section1 h1{
-        font-size: 60px;
+        font-size: 50px;
     }
     .img1{
         display: none;
@@ -207,9 +209,16 @@ ul img{
         display: block;
     }
     .footer{
+        width: 100%;
         margin-top: 60px;
     }
     .inner{
         margin: 30px 0;
+    }
+    .inner p{
+        font-size: 15px;
+    }
+    .footer img{
+        margin-left: 2px;
     }
 }
